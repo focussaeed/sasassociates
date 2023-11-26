@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  /* Marquee CSS */
+
+.bg-custom {
+    background-image: url('./images/calculator.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30px;
+  }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./font/Anydore.otf);
+  }
+
+.marque1 {
+    font-family: myFirstFont;
+    font-size:80px ;
+    color: blue;
+    
+  }
+
+   /* Marquee CSS */
+
+.calc-div2 {
+    background: linear-gradient(120deg, #f37979, #e94343);
+    min-height: 600px;
+  }
+
+/* .calc-div3 {
+    justify-content: space-between;
+  } */
+
+.calc-div5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+.calc-div6 {
+    background-color: rgb(243, 243, 170);
+
+  }
+
+/*  Section Bottom */
+
+.bott1{
+  background-color: rgb(237, 251, 251);
+  width: 100%;
+  min-height: 300px;
+}
+
+.botPara1 {
+  font-family: myFirstFont;
+  font-size:28px ;
+  color:blue;
+}
+
+.botPara2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:20px ;
+  font-weight: 900;
+  text-align: justify;
+  
+}
+
+.botPara3 {
+  font-family: myFirstFont;
+  font-size:30px ;
+  font-weight: 900;
+  color: blue;
+ 
+}
+
+.botPara4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:20px ;
+  font-weight: 900;
+  list-style-type: none;
+
+}
+
+.botPara4 li a {
+
+  text-decoration: none;
+}

@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.calc-div2 {
+    background: linear-gradient(120deg, #f37979, #e94343);
+    min-height: 600px;
+  } 
+
+.suDiv1 {
+    margin: auto;
+   min-height: 300px ;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+
+        /* Sing UP & Sign In CSS Code  */
+.lbl1 {
+    margin-left: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+.inp1 {
+    margin-left: 50px;
+    padding: 10px;
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.inp2:hover {
+    background-color: green;
+}
+
+
+    /* Sing up CSS Code  */
+
+.lbl2 {
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+.div1 {
+ 
+    margin-left: 100px;
+
+}
+

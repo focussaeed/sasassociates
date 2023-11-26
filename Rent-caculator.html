@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rental Tax Calculator</title>
+        <link rel="stylesheet" href="calc.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <!-- **************** Nav Bar Section ***************  -->
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./images/logo.png"
+                      alt="logo" style="width: 120px; height: 40px;"> </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                      </li>
+          
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">NTN Registarion</a></li>
+                          <li><a class="dropdown-item" href="#">Income Tax Services</a></li>
+                          <li><a class="dropdown-item" href="#">Sales Tax Services</a></li>
+                          <li><a class="dropdown-item" href="#">Financial Services</a></li>
+                          <li><a class="dropdown-item" href="#">Other Services</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sal-calculator.html">Tax Calculator</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+          
+                    <div class="d-flex ">
+                      <a href="./Signup.html"><button class="btn btn-outline-success me-2" type="submit">Sign Up</button></a>
+                      <a href="./signin.html"><button class="btn btn-outline-success me-2" type="submit">Sign in</button></a>
+          
+                    </div>
+          
+                  </div>
+                </div>
+        </nav>
+
+        <!-- **************** Salary Tax Calculation Section ***************  -->
+
+                <!-- **************** Marquee Section ***************  -->
+
+        <div class="container-fluid px-0 bg-custom">
+            <marquee behavior="sliding" direction class="marque1">Tax Calculator</marquee>
+        </div>
+
+                <!-- **************** Main background Section ***************  -->
+
+        <div class="container-fluid px-0 py-4 calc-div2">  
+
+                    <!-- **************** Updatation date Section ***************  -->
+
+            <div class="container calc-div3 ">
+                <div class="row bg-white rounded-4">
+                    <p class="fs-2" style="text-align: center;"> Updated (November 18, 2023)</p>
+                </div>
+            </div>
+
+                    <!-- **************** Button Section ***************  -->
+
+            <div class="container calc-div3 ">
+                <div class="row bg-white rounded-4 mt-3 p-0"
+                    style="justify-content: space-around;">
+
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-4 ">
+                        <a href="./sal-calculator.html"> <button class="btn btn-primary"> Salary Tax Calculator</button></a>
+                    </div>
+             
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-4 ">
+                         <a href="./ind-calculator.html"> <button class="btn btn-primary"> Individual Tax Calculator </button></a>
+                    </div>
+             
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-4">
+                         <a href="./Rent-caculator.html"><button class="btn btn-primary"> Rental Tax Calculator</button></a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-4 ">
+                        <button class="btn btn-primary"> Capital Gain Tax Calculator</button>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-4 p-4 ">
+                        <button class="btn btn-primary"> Investment Tax Calculator</button>
+                    </div>
+                </div>
+            </div>
+
+                <!-- **************** Sub Section ***************  -->
+
+            <div class="container bg-white rounded-4 mt-2 py-4">
+
+                    <!-- **************** Input Section ***************  -->
+                    <form autocomplete="off" id="calculateTax" name="calculateTax">
+                        <div class="row bg-white rounded-4 mt-3 p-0"
+                            style="justify-content: space-around;">
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 p-4 ">
+                                <label class="fs-5" for="rent">Enter Rent Amount
+                                    : </label>
+                                <input class="form-control" id="rent"
+                                    name="rent" min="0" pattern="[0-9]"
+                                    placeholder="Enter rent amount collected"
+                                    type="number">
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 p-4 ">
+                                <label class="fs-5" for="type"> Select
+                                    Monthly/Yearly: </label>
+                                <select class="form-control" id="type">
+                                    <option value="monthly">Monthly</option>
+                                    <option value="yearly">Yearly</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 p-4 ">
+                                <label class="fs-5" for="type"> Select
+                                    Individual/Company: </label>
+                                <select class="form-control" id="status">
+                                    <option value="individual">Individual</option>
+                                    <option value="company">Company</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 p-4 mt-4">
+                                <button aria-label="button"
+                                    class="btn btn-primary m-btn-block px-4"
+                                    type="button" onclick="rentCalculate()">Calculate</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                    <!-- **************** Result Display Section ***************  -->
+
+                    <div class="container">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td
+                                        class="border-bottom-0 border-top-0 pb-0 border-left-0">
+                                        <span>Monthly Rent</span>
+                                    </td>
+                                    <td
+                                        class="border-bottom-0 border-top-0 pb-0 border-left border-right">
+                                        <span>Monthly Tax</span>
+                                    </td>
+                                    <td
+                                        class="border-bottom-0 border-top-0 pb-0 border-right-0">
+                                        <span>Rent After Tax</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="border-top-0 pt-0 border-left-0">
+                                        <h5 class="sub-heading"
+                                            id="monthlyRent">0</h5>
+                                    </td>
+                                    <td
+                                        class="border-top-0 pt-0 border-left border-right">
+                                        <h5 class="sub-heading" id="monthlyTax">0</h5>
+                                    </td>
+                                    <td class="border-top-0 pt-0 border-right-0">
+                                        <h5 class="sub-heading"
+                                            id="monthlyRentAfterTax">0</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        class="border-bottom-0 pb-0 border-left-0">
+                                        <span>Yearly Rent</span>
+                                    </td>
+                                    <td
+                                        class="border-bottom-0 pb-0 border-left border-right">
+                                        <span>Yearly Tax</span>
+                                    </td>
+                                    <td
+                                        class="border-bottom-0 pb-0 border-right-0">
+                                        <span>Rent After Tax</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        class="border-bottom-1 border-top-0 pt-0 border-left-0">
+                                        <h5 class="sub-heading"
+                                            id="yearlyRent">0</h5>
+                                    </td>
+                                    <td
+                                        class="border-bottom-1 border-top-0 pt-0 border-left border-right">
+                                        <h5 class="sub-heading" id="yearlyTax">0</h5>
+                                    </td>
+                                    <td
+                                        class="border-bottom-1 border-top-0 pt-0 border-right-0">
+                                        <h5 class="sub-heading"
+                                            id="yearlyRentAfterTax">0</h5>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="3"> <strong style="color: red;">NOTE:</strong>
+                                        Calculated tax
+                                        amount are for your estimation and
+                                        depend on that you have
+                                        only rental income. For further details
+                                        you may contact us.</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- **************** Refresh Button Section ***************  -->
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 py-2 mb-2" style="text-align: right;">
+                            <a id="hrefLink"> <button class="btn btn-primary" id="refresh" disabled>Refresh</button></a>
+                    </div>
+
+                    <!-- **************** Calculatation Slab Display Section ***************  -->
+
+                    <div class="container bg-secondary rounded-4  ">
+                        <section id class="section">
+                            <div class="container">
+                                <div class="row py-4">
+                                    <div class="col-lg-12 col-md-12">
+                                                <h2>Immoveable Property Rental Income Tax Slabs 2023
+                                                    - 2024</h2>
+                                                <p class="text-justify"
+                                                    style="font-weight: 600; color: white;">As
+                                                    per
+                                                    the Federal Budget 2023-2024 presented by the Government of
+                                                    Pakistan, the following slabs and income tax rates will be
+                                                    applicable on rental income of Immoveable property for individual only and for the
+                                                    company is flat rate @15% for the years 2023-2024. </p>   
+                                    </div>
+                                          
+                                    <div class="calculator" style="color: white;">
+                                                <p class="text-justify">
+                                                    1. Upto Rs.300,000/- =>> The
+                                                    rate of income tax is 0%.
+                                                </p>
+                                                <p class="text-justify">
+                                                    2. From Rs.300,001/- to
+                                                    Rs.600,000/- =>> The rate
+                                                    of
+                                                    income tax is 5.0% of the
+                                                    amount exceeding
+                                                    Rs.300,000/-
+                                                </p>
+                                                <p class="text-justify">
+                                                    3. From Rs.600,001/- to
+                                                    Rs.2,000,000/- =>> The rate
+                                                    of
+                                                    income tax is 10.00% of the
+                                                    amount exceeding
+                                                    Rs.600,000/- and fixed tax
+                                                    amount is Rs.15,000/-.
+                                                </p>
+                                                <p class="text-justify">
+                                                    6. From Rs.2,000,001/- to
+                                                    onward =>> The rate of
+                                                    income tax is 25.00% of the
+                                                    amount exceeding
+                                                    Rs.2,000,000/- and fixed tax
+                                                    amount is Rs.155,000/-.
+                                                </p>
+
+                                                <p><strong style="color: red;">NOTE:</strong>
+                                                    100% increase in amount of tax in case person/company is not
+                                                    appearing on the Active Taxpayer’s List (ATL)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+            </div>
+        </div>
+
+        <!-- *********************** Section Bottom / contact  ****************** -->
+
+        <div class="container-fluid mt-0 px-0 bott1" id="contact">
+            <div class="container py-2 bott3">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3 bott2">
+                  <p class="botPara1 px-2"><b>You can't wait until next year.</b></p>
+                  <p class="botPara2 px-2"> Every day that your business operates
+                    without efficient
+                    accounting or a clear tax strategy,</p>
+                  <p class="botPara1 px-2">you're missing out on profit
+                    and peace of mind.</p>
+                </div>
+  
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3 bott2">
+                  <p class="botPara3 px-4">Our Services</p>
+                  <div class="container">
+                    <ul class="botPara4 px-2 py-2">
+                      <li><a href="#">NTN Registarion</a></li>
+                      <li><a href="#">Income Tax Services</a></li>
+                      <li><a href="#">Sales Tax Services</a></li>
+                      <li><a href="#">Financial Services</a></li>
+                      <li><a href="#">Other Services</a></li>
+                    </ul>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3 bott2">
+                  <p class="botPara3 px-4">Useful Link</p>
+                  <div class="container">
+                    <ul class="botPara4 px-2 py-2">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="./sal-calculator.html">Tax Calculator</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Other Services</a></li>
+                    </ul>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3 bott2">
+                  <p class="botPara3 px-3">Get in touch</p>
+                  <p>
+                    <i class="fa-sharp fa-solid fa-location-dot fa-beat px-3 fs-3"></i>
+                    <strong>Address: </strong></p>
+                  <p class="px-5"> Karachi, Pakistan</p>
+  
+                  <p>
+                    <i class="fa-solid fa-envelope fa-beat px-3 fs-3"></i><strong>email
+                      : </strong></p>
+                        <a href class="px-5"> focussaeed@gmail.com</a>
+  
+                  <p>
+                    <i class="fa-brands fa-square-whatsapp fa-beat px-3 fs-3"></i><strong>Whatsapp
+                      :</strong> </p>
+                  <p class="px-5"> (+92) 3062951737</p>
+                </div>
+  
+              </div>
+  
+              <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                  <p class="botPara3 py-1">Follow us</p>
+                </div>
+  
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <i class="fa-brands fa-whatsapp fa-lg fs-2 p-4"></i>
+                  <i class="fa-brands fa-square-facebook fa-lg fs-2 p-4"></i>
+                  <i class="fa-brands fa-square-instagram fa-lg fs-2 p-4""></i>
+                  <i class="fa-brands fa-square-twitter fa-lg fs-2 p-4""></i>
+                  <i class="fa-brands fa-linkedin-in fa-lg fs-2 p-4""></i>
+                </div>
+              </div>
+  
+            </div>
+      </div>
+
+
+
+                <script src="calculator.js"></script>
+            </body>
+        </html>

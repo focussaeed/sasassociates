@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header1 {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+
+.custom-bg {
+    background-image: url('./images/Home.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+    position:relative;    
+  }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./font/Anydore.otf);
+  }
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(./font/Bulletto\ Killa.ttf)
+  }
+
+.welcome {
+    font-family: myFirstFont;
+    font-size:80px ;  
+    color:blue;
+    line-height: 50px;
+  }
+
+.secA1 {
+    padding: 0;
+    text-align: justify;
+  }
+
+.secA2 {
+    padding-top: 150PX;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+.welcome1 {
+    font-family: mySecondFont;
+    font-size: 50px ;
+    text-align: center;
+  }
+
+.welcome2 {
+    font-family: myFirstFont;
+    font-size:40px ;
+    color: blue;
+    line-height: 50px;
+    margin-left: 80px;
+  }
+
+.secPara1 {
+   margin-left: 70px;
+   color: black;
+}
+
+.secTutorial {
+  background-color: rgb(237, 251, 251);
+  border-radius: 10px;
+}
+
+
+.service1 {
+    line-height: 30px;
+    list-style-type: none;
+}
+.serv-item {
+    
+    text-decoration: none;
+}
+
+
+/*  Section Tutorial-A */
+
+.secBtuto1 {
+  font-family: myFirstFont;
+  font-size:35px ;
+  color:blue;
+  text-align: center;
+}
+
+.secBtuto2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+
+/*  Section Bottom */
+
+.bott1{
+  background-color: rgb(237, 251, 251);
+  min-height: 300px;
+}
+
+.botPara1 {
+  font-family: myFirstFont;
+  font-size:28px ;
+  color:blue;
+}
+
+.botPara2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:20px ;
+  font-weight: 900;
+  text-align: justify;
+  
+}
+
+.botPara3 {
+  font-family: myFirstFont;
+  font-size:30px ;
+  font-weight: 900;
+  color: blue;
+ 
+}
+
+.botPara4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:20px ;
+  font-weight: 900;
+  list-style-type: none;
+
+}
+
+.botPara4 li a {
+
+  text-decoration: none;
+}
